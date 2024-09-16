@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+body{
+    /* background-color: #CDCDC1; */
+    color: #000000;
+    background-image: url(https://cdn.pixabay.com/photo/2023/08/14/04/22/sunrise-8188929_1280.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+     background-position: center; 
+    background-attachment: fixed;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.331);
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+     border: #000000 2px solid;  /* solid dotted dashed */
+    border-radius: 30px;
+    margin-bottom: 10%;
+}
+
+p{
+    color: #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 20px ;
+    font-weight: 500;
+    /* font-style: normal; */
+    /* font-stretch: ultra-expanded; */
+    line-height: 2;
+    /* letter-spacing: 20px; */
+    /* word-spacing: 1000px; */
+    text-align: justify;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    text-indent: 50px;
+    /* text-shadow: 2px 2px 1px violet; */
+}
+
+    h1{
+        text-align: center;
+        padding: 5%;
+        font-size: 90px;
+        text-shadow: 2px 2px 1px rgb(242, 157, 0);
+        font-style: oblique;
+        text-decoration: underline;
+    }
+
+    /* h2{
+        text-shadow: 2px 2px 1px orange;
+        font-size: 30px;
+        padding: 2%;
+    } */
+
+img{
+  width: 400px;  
+  align-items: center;
+}
+
+footer{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+footer p{
+    text-align: center;
+    padding: 5%;
+    color: white;
+}
+
